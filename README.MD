@@ -93,5 +93,9 @@ Nikolas out.
 
 #### Organizing files and creating placeholder values
 
-Organized working directory and added only files which are of relevance for this AWS project
+Organized working directory and added only files which are of relevance for this AWS project. Created remote repo and pushed local files there. 
+
+#### Lambda Weekly Average function
+
+I unfortunately noticed that my weekly average function is not yet working but I plan to fix it tomorrow. Out of time for today...
 
