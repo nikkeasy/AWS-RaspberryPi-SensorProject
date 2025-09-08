@@ -1,0 +1,12 @@
+[Unit]
+Description=DHT11 Sensor Data Logger for AWS IoT
+After=network.target
+
+[Service]
+User=raspberrypi_device_1
+WorkingDirectory=/home/raspberrypi_device_1/your_project_directory
+ExecStart=/home/raspberrypi_device_1/your_project_directory/my_env/bin/python3 /home/pi/your_project_directory/final_aws_sensor.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
