@@ -57,7 +57,7 @@ def lambda_handler(event, context):
         table.put_item(
             Item={
                 'clientId': f'{client_id_to_process}#WEEKLY_AVG',
-                'timestamp': end_ts,
+                'timeStamp': end_ts,
                 'avg_temperature': Decimal(f'{avg_temp:.2f}'),
                 'avg_humidity': Decimal(f'{avg_humidity:.2f}'),
                 'processed_item_count': item_count
